@@ -5,31 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MandrillApp</title>
         <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header></header>
-        <main>
-            <form>
-                <img src="" alt="🐒">
-                    <label for="cars">Choose a car:</label>
-                    <select id="cars" name="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
-                    </select>
-                
-                
-                <a><sub>Nova</sub> DPA</a>
-                <a>Nova <mark>PO</markk></a>
-                <a>Nova OA</a>
-                <a>Nova JA</a>
-                <a>Nova ⭐️</a>
-                <a>Nova PP</a>
-                <a>Nova PREC</a>
-            </form>
-        </main>
+        <main class="pagina">
+            <section class="formulario">
+                <div>
+                    <h4 class="titulo">Cliente</h4>
+                    <p class="subtitulo">Cliente que está adquirindo a demanda.</p>
+                    <br>
+                    <input autocomplete="off" role="combobox" type="text" placeholder="Nome do Solicitante" id="meuInput" class="InputTexto" list="">
+                    <datalist id="opcoes" class="lista" role="listbox"></datalist>
+                        <div id="espacoBotao" class="divBotao" id="espacoIdBotao"></div>
+                </div> 
+            </section>
+          </main>
         <footer></footer>
-         
+        <script src="main.js"></script>
     </body>
 </html>
